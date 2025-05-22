@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+
+  margin: 0 auto;
+  text-align: center;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.input input {
+  border: none;
+  padding: 5px;
+  width: 200px;
+
+  border-radius: 5px;
+}
+
+.input button {
+  padding: 10px;
+  background: skyblue;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.weather-box {
+  height: 500px;
+  /* border: 2px solid black; */
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+.weather-box.icon,
+.name,
+.temperature,
+.description {
+  margin-top: 10px;
+  background: lawngreen;
+
+}
+.weather-box .temperature, .description {
+  color: orangered;
+}
